@@ -1,0 +1,110 @@
+.bg {
+    background-color: #fff;
+    position: relative;
+  }
+  .bg .scroll {
+    height: 100%;
+  }
+  .bg h1 {
+    text-align: center;
+  }
+  .bg p {
+    color: #242424;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .bg .next {
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 80%;
+    text-align: center;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    border: 1px solid #FF2D55;
+    margin-bottom: 2rem;
+    border-radius: 2.25rem;
+    color: #FF2D55;
+  }
+  .bg .money {
+    width: 15rem;
+    border: 1px solid black;
+    background-color: white;
+  }
+  .bg .line {
+    width: 100%;
+    height: 5rem;
+    position: relative;
+    border-bottom: 1px solid #a4a4a4;
+  }
+  .bg .line-2 {
+    width: 4rem;
+    height: 3rem;
+    position: relative;
+    border-top: 1px solid #a4a4a4;
+    border-left: 1px solid #a4a4a4;
+    text-align: center;
+    line-height: 3rem;
+    float: right;
+  }
+  .bg .line-down {
+    height: 3rem;
+  }
+  .bg .line div {
+    height: 100%;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .bg .left {
+    position: absolute;
+    left: 0;
+    width: 33.3%;
+    border-right: 1px solid #a4a4a4;
+  }
+  .bg .right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 33.3%;
+    border-left: 1px solid #a4a4a4;
+  }
+  .bg .center {
+    width: 100%;
+  }
+  .bg .delete {
+    width: 1.8rem;
+  }
+  .bg .special {
+    background-color: #d1d4db;
+  }
+  .bg .keyboard {
+    position: fixed;
+    bottom: -24rem;
+    width: 100%;
+  }
+  .bg .topop {
+    animation: pop 0.3s forwards;
+  }
+  .bg .todown {
+    animation: down 0.3s forwards;
+  }
+  @keyframes pop {
+    from {
+      bottom: -24rem;
+    }
+    to {
+      bottom: 0;
+    }
+  }
+  @keyframes down {
+    from {
+      bottom: 0rem;
+    }
+    to {
+      bottom: -24rem;
+    }
+  }
